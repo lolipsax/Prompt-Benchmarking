@@ -1,0 +1,27 @@
+[
+  {
+    "name": "The Naked Prompt",
+    "template": "{input}",
+    "description": "Hiçbir yönlendirme içermeyen ham sorgu."
+  },
+  {
+    "name": "The Persona Architect",
+    "template": "Sen alanında dünyanın en iyi uzmanısın. Cevabın teknik, kesin ve profesyonel olsun. Görevin: {input}",
+    "description": "Modele uzman kimliği atayan rol bazlı sorgu."
+  },
+  {
+    "name": "Chain-of-Thought (CoT)",
+    "template": "{input} Cevabı vermeden önce, problemini adım adım analiz et ve çözüm yolunu madde madde açıkla. Sonra nihai cevabı ver.",
+    "description": "Adım adım düşünmeye zorlayan mantık zinciri."
+  },
+  {
+    "name": "The Tip Motivation",
+    "template": "{input} Bu benim kariyerim için hayati önem taşıyor. Eğer mükemmel bir cevap verirsen sana 200$ bahşiş vereceğim. Lütfen hata yapma.",
+    "description": "Ödül/Ceza mekanizması ile dikkat artırma."
+  },
+  {
+    "name": "Structured Delimiter",
+    "template": "{input} Cevabını sadece ###SONUÇ### etiketleri arasına yaz. Başka hiçbir giriş veya gelişme cümlesi kurma.",
+    "description": "Formatı garanti altına alan yapısal kısıtlama."
+  }
+]

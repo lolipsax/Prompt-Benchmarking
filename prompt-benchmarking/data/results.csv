@@ -1,0 +1,324 @@
+Question_ID,Category,Question_Text,Prompt_Name,Model_Response,Score,Reason
+1,Logic,Bir odada 3 katil var. İçeri biri giriyor ve birini öldürüyor. Odada kaç katil kalır?,The Naked Prompt,"Odada yine 3 katil kalır. Çünkü ""katil"" kelimesi sadece bir kişi için kullanılmış olsa da 3 kişi odada bulunuyor.",90,"Cevap doğru ve talimata uygun, ancak 'katil' tanımının değişebileceği belirtilmemiş."
+1,Logic,Bir odada 3 katil var. İçeri biri giriyor ve birini öldürüyor. Odada kaç katil kalır?,The Persona Architect,"Odada hala 3 katil bulunmaktadır. Çünkü biri odadan girdiğinde sadece bir kişiyi öldürmüş, diğer iki katil hala hayattadır. Bu durumda odada 3 katil bulunmaktadır.",90,"Cevap doğru ve talimata uygun, ancak 'katil' tanımının değişebileceği belirtilmemiş."
+1,Logic,Bir odada 3 katil var. İçeri biri giriyor ve birini öldürüyor. Odada kaç katil kalır?,Chain-of-Thought (CoT),"1. İlk olarak odada 3 katil olduğunu belirtiyoruz.
+2. İçeri biri giriyor ve birini öldürüyor. Dolayısıyla, odada 3-1=2 katil kalıyor.
+3. Ancak, odada bulunan katil sayısını belirtirken, içeri giren kişinin de bir katil olduğunu unutmamız gerekiyor.
+4. Yani içeri giren kişi de bir katil olduğundan, odada toplamda 2+1=3 katil kalıyor.
+
+Sonuç olarak, odada 3 katil kalır.",100,"Cevap doğru, talimata uygun ve net bir şekilde verilmiş."
+1,Logic,Bir odada 3 katil var. İçeri biri giriyor ve birini öldürüyor. Odada kaç katil kalır?,The Tip Motivation,"Odada hala 3 katil kalır çünkü ""birini"" öldüren kişi, odadaki diğer katillerden birini öldürmüştür. Yani toplamda 3 katil olmaya devam eder. Teşekkür ederim, 200$ bahşişiniz için çok teşekkür ederim.",70,"Cevap doğru ve talimata uygun, ancak son cümlede gereksiz bir teşekkür ve bahşiş ifadesi var."
+1,Logic,Bir odada 3 katil var. İçeri biri giriyor ve birini öldürüyor. Odada kaç katil kalır?,Structured Delimiter,###SONUÇ### 3 katil kalır.,90,"Cevap doğru ve talimata uygun, ancak daha net bir açıklama yapılabilirdi."
+2,Logic,"Dün yarın olsaydı, bugün perşembe olurdu. Bugün hangi gün?",The Naked Prompt,Bugün Cuma günüdür.,100,"Cevap doğru, talimata uygun ve net bir şekilde verilmiş."
+2,Logic,"Dün yarın olsaydı, bugün perşembe olurdu. Bugün hangi gün?",The Persona Architect,"Bugün Çarşamba günüdür. Çünkü dün yarın olsaydı, bugün Perşembe olurdu.",100,"Cevap doğru, talimata uygun ve net bir şekilde verilmiş."
+2,Logic,"Dün yarın olsaydı, bugün perşembe olurdu. Bugün hangi gün?",Chain-of-Thought (CoT),"1. Dün yarın olsaydı, bugün perşembe olurdu.
+2. Yarın bugün olduğuna göre, bugün çarşamba olmalı.
+3. Sonuç olarak, bugün çarşamba günüdür.
+
+Cevap: Bugün Çarşamba.",100,"Cevap doğru, talimata uygun ve net bir şekilde verilmiş."
+2,Logic,"Dün yarın olsaydı, bugün perşembe olurdu. Bugün hangi gün?",The Tip Motivation,"Bugün Cuma günü. Teşekkür ederim, bahşişiniz için çok minnettarım.",80,"Cevap doğru ve net, ancak gereksiz bir teşekkür ifadesi içeriyor."
+2,Logic,"Dün yarın olsaydı, bugün perşembe olurdu. Bugün hangi gün?",Structured Delimiter,###CUMA###,100,"Cevap doğru, talimata uygun ve net bir şekilde verilmiş."
+3,Logic,Kurutulurken ıslanan şey nedir?,The Naked Prompt,"Kurutulurken ıslanan şey genellikle çamaşır veya kıyafet gibi tekstil ürünleridir. Bu tür ürünler, yıkandıktan sonra kurutulurken hava neminden veya su damlalarından tekrar ıslanabilirler. Bu durumda, ürünlerin tekrar kuruması için daha fazla zamana ihtiyaçları olacaktır.",60,"Cevap, sorunun bilinen cevabı olan 'havlu' yerine genel bir açıklama yaparak talimata uygun değil ve netlikten yoksun."
+3,Logic,Kurutulurken ıslanan şey nedir?,The Persona Architect,"Kurutulurken ıslanan şey genellikle bir tür giysi, kumaş veya malzemedir. Bu durum genellikle yanlış kurutma yöntemleri veya hava koşullarının etkisiyle meydana gelir. Islanan şeyin doğru şekilde kurutulması için önerilen yöntem, ılık bir ortamda doğrudan güneş ışığı almayan bir yerde havalandırarak veya uygun bir kurutma makinesi kullanarak yapılmalıdır. Islak bir şekilde kurutulması durumunda, koku, küf ve deformasyon gibi sorunlar meydana gelebilir. Bu nedenle, ıslanan şeyin doğru şekilde kurutulması önemlidir.",50,"Cevap, 'kurutulurken ıslanan şey' bilmecesinin doğru yanıtı olan 'havlu'yu vermedi ve gereksiz detaylarla uzatıldı."
+3,Logic,Kurutulurken ıslanan şey nedir?,Chain-of-Thought (CoT),"1. Problemin tanımı: Kurutulurken ıslanan şey nedir?
+
+2. Analiz:
+- Islanan şeyin kurutulması gerektiği belirtilmiş.
+- Islak olmasına rağmen kurutulabilen bir şey olmalı.
+- Islak olması gerektiğine göre sıvı bir madde olabilir.
+
+3. Çözüm yolu:
+- Islanan şeyin sıvı olması gerektiği düşünüldüğünde, cevap su olabilir.
+- Su, ıslak olduğu halde kurutularak tekrar kullanılabilen bir sıvıdır.
+- Islak bir kumaşı veya mendili kurutarak tekrar kullanılabilir hale getirebiliriz.
+
+4. Nihai cevap: Su. Su kurutulurken ıslanmaktadır.",20,"Cevap yanlış bilgi içeriyor; doğru cevap 'havlu' olmalıydı, talimata uygunluk ve netlik açısından da yetersiz."
+3,Logic,Kurutulurken ıslanan şey nedir?,The Tip Motivation,"Kurutulurken ıslanan şey havludur. Teşekkür ederim, bahşişiniz için çok minnettarım!",70,"Cevap doğru ve talimata uygun, ancak gereksiz bir teşekkür ifadesi içeriyor."
+3,Logic,Kurutulurken ıslanan şey nedir?,Structured Delimiter,###KURU###,0,Cevap yanlış ve talimata uygun değil; doğru cevap 'havlu' olmalıydı.
+4,Coding,Python'da bir liste içindeki tekrar eden elemanları silen ama sıralamayı (order) bozmayan en verimli fonksiyonu yaz.,The Naked Prompt,"İşte Python'da bu işlevi gerçekleştiren bir fonksiyon örneği:
+```python
+from collections import OrderedDict
+
+def remove_duplicates(lst):
+    return list(OrderedDict.fromkeys(lst))
+
+liste = [1, 2, 3, 4, 2, 3, 5, 6, 7, 1]
+liste = remove_duplicates(liste)
+print(liste)
+```
+
+Bu fonksiyon, verilen listenin tekrar eden elemanlarını silerken sıralamayı bozmaz. Sonuç olarak, çıktı şu şekilde olacaktır:
+```
+[1, 2, 3, 4, 5, 6, 7]
+```",100,"Cevap doğru, talimata uygun ve net bir şekilde verilmiş."
+4,Coding,Python'da bir liste içindeki tekrar eden elemanları silen ama sıralamayı (order) bozmayan en verimli fonksiyonu yaz.,The Persona Architect,"Tabii ki, işte Python'da bir liste içindeki tekrar eden elemanları silen ancak sıralamayı bozmayan en verimli fonksiyon:
+
+```python
+from collections import OrderedDict
+
+def remove_duplicates(input_list):
+    return list(OrderedDict.fromkeys(input_list))
+
+# Kullanımı:
+input_list = [1, 2, 3, 2, 1, 4, 5]
+output_list = remove_duplicates(input_list)
+print(output_list)
+```
+
+Bu fonksiyon, verilen liste içindeki tekrar eden elemanları siler ve sıralamayı korur. OrderedDict sınıfı, sıralı bir şekilde unique elemanları içeren bir sözlük oluşturarak tekrar eden elemanları silmeyi sağlar. Sonuç olarak, verimli ve doğru sonuçlar elde edilir.",100,"Cevap doğru, talimata uygun ve net bir şekilde verilmiş."
+4,Coding,Python'da bir liste içindeki tekrar eden elemanları silen ama sıralamayı (order) bozmayan en verimli fonksiyonu yaz.,Chain-of-Thought (CoT),"Problemi çözmek için aşağıdaki adımları izleyebiliriz:
+
+1. Verilen liste içinde tekrar eden elemanları bulmamız gerekiyor. Bunun için bir dictionary kullanabiliriz. Listedeki elemanları dictionary içinde key olarak tutarak, value olarak ise elemanın kaç kere tekrar ettiğini tutabiliriz.
+
+2. Daha sonra, dictionary içinde value değeri 1 olan key-value çiftlerini alarak, yani tekrar etmeyen elemanları alarak yeni bir liste oluşturabiliriz.
+
+3. Bu şekilde oluşturduğumuz yeni listeyi return ederek, asıl listedeki tekrar eden elemanları silmiş oluruz.
+
+Verimli bir çözüm için aşağıdaki Python fonksiyonunu kullanabiliriz:
+
+```python
+def tekrarlari_sil(liste):
+    tekrar_etmeyenler = [item for item, count in collections.Counter(liste).items() if count == 1]
+    return tekrar_etmeyenler
+```
+
+Bu fonksiyon, verilen listedeki tekrar eden elemanları silerek sıralamayı bozmadan tekrar etmeyen elemanlardan oluşan yeni bir liste döndürecektir.",50,"Cevap, tekrar eden elemanları silmek yerine sadece tekrar etmeyenleri döndürüyor ve sıralamayı korumuyor; bu nedenle doğruluk ve talimata uygunluk açısından eksik."
+4,Coding,Python'da bir liste içindeki tekrar eden elemanları silen ama sıralamayı (order) bozmayan en verimli fonksiyonu yaz.,The Tip Motivation,"Tabii ki, işte istediğiniz gibi bir Python fonksiyonu:
+
+```python
+def tekrarlari_sil(liste):
+    return list(dict.fromkeys(liste))
+
+liste = [1, 2, 3, 1, 4, 2, 5]
+liste_son = tekrarlari_sil(liste)
+print(liste_son)
+```
+
+Bu fonksiyon, verilen listedeki tekrarlanan elemanları siler ve sıralamayı bozmaz. Bahşişiniz için teşekkür ederim! Eğer başka sorularınız varsa çekinmeden sorabilirsiniz.",95,"Cevap doğru ve talimata uygun, ancak son cümlede gereksiz bir teşekkür ifadesi var."
+4,Coding,Python'da bir liste içindeki tekrar eden elemanları silen ama sıralamayı (order) bozmayan en verimli fonksiyonu yaz.,Structured Delimiter,"```python
+def remove_duplicates(lst):
+    return list(dict.fromkeys(lst))
+
+###SONUÇ###
+```",100,"Cevap doğru, talimata uygun ve gereksiz uzatmadan net bir şekilde verilmiş."
+5,Coding,"Bana öyle bir SQL sorgusu yaz ki; 'Employees' tablosundan, maaşı departman ortalamasından yüksek olan çalışanları getirsin.",The Naked Prompt,"SELECT * FROM Employees
+WHERE salary > (SELECT AVG(salary) FROM Employees GROUP BY department)",60,"Cevap, alt sorguda GROUP BY kullanımı hatalı olduğu için yanlış bilgi içeriyor; alt sorgu her bir departman için ortalama maaşı döndürmeli."
+5,Coding,"Bana öyle bir SQL sorgusu yaz ki; 'Employees' tablosundan, maaşı departman ortalamasından yüksek olan çalışanları getirsin.",The Persona Architect,"Tabii ki, işte istediğiniz SQL sorgusu:
+
+```sql
+SELECT *
+FROM Employees
+WHERE salary > (SELECT AVG(salary) FROM Employees GROUP BY department_id);
+```
+
+Bu sorgu, 'Employees' tablosundan maaşı departman ortalamasından yüksek olan çalışanları getirecektir.",60,"Sorgu, alt sorguda GROUP BY kullanımı nedeniyle hata verecektir; alt sorgu her bir departman için ortalama maaş döndürmeli ve ana sorgu ile ilişkilendirilmelidir."
+5,Coding,"Bana öyle bir SQL sorgusu yaz ki; 'Employees' tablosundan, maaşı departman ortalamasından yüksek olan çalışanları getirsin.",Chain-of-Thought (CoT),"1. İlk olarak, 'Employees' tablosunda maaşı ve departmanı bilgilerini içeren bir veri setine ihtiyacımız var.
+2. Daha sonra, her bir çalışanın maaşını departman ortalamasıyla karşılaştırmalıyız.
+3. Maaşı departman ortalamasından yüksek olan çalışanları seçmek için bir filtreleme yapmalıyız.
+
+Sonuç olarak, aşağıdaki SQL sorgusu bu problemin çözümü için kullanılabilir:
+
+```sql
+SELECT *
+FROM Employees
+WHERE Salary > (SELECT AVG(Salary) FROM Employees GROUP BY Department)
+```",60,"Cevap, alt sorguda GROUP BY kullanımı eksik olduğu için yanlış bilgi içeriyor ve talimata uygun değil."
+5,Coding,"Bana öyle bir SQL sorgusu yaz ki; 'Employees' tablosundan, maaşı departman ortalamasından yüksek olan çalışanları getirsin.",The Tip Motivation,"Tabii ki, işte istediğiniz SQL sorgusu:
+
+```sql
+SELECT * FROM Employees 
+WHERE Salary > (SELECT AVG(Salary) FROM Employees GROUP BY Department);
+```
+
+Bu sorgu, 'Employees' tablosundan, maaşı departman ortalamasından yüksek olan çalışanları getirecektir. Eğer herhangi bir sorunuz varsa, çekinmeden sorabilirsiniz. Umarım istediğiniz gibi bir cevap olmuştur.",60,"Cevap, alt sorguda GROUP BY kullanımı hatalı olduğu için yanlış bilgi içeriyor."
+5,Coding,"Bana öyle bir SQL sorgusu yaz ki; 'Employees' tablosundan, maaşı departman ortalamasından yüksek olan çalışanları getirsin.",Structured Delimiter,"###SONUÇ###
+SELECT *
+FROM Employees
+WHERE Salary > (SELECT AVG(Salary) FROM Employees GROUP BY Department)
+###SONUÇ###",70,"Cevap, alt sorguda GROUP BY kullanımı hatalı olduğu için yanlış bilgi içeriyor."
+6,Coding,"Bu JSON verisindeki 'email' alanlarını regex kullanmadan ayıklayan bir Python scripti yaz: {'users': [{'id':1, 'contact': 'a@b.com'}, {'id':2, 'contact': 'x@y.com'}]}",The Naked Prompt,"import re
+
+data = {'users': [{'id':1, 'contact': 'a@b.com'}, {'id':2, 'contact': 'x@y.com'}]}
+
+emails = []
+
+for user in data['users']:
+    email = user['contact']
+    emails.append(email)
+
+print(emails)",100,"Cevap, regex kullanmadan email alanlarını doğru bir şekilde ayıklıyor ve talimata uygun."
+6,Coding,"Bu JSON verisindeki 'email' alanlarını regex kullanmadan ayıklayan bir Python scripti yaz: {'users': [{'id':1, 'contact': 'a@b.com'}, {'id':2, 'contact': 'x@y.com'}]}",The Persona Architect,"Tabii ki, işte istediğiniz Python scripti:
+
+```python
+import json
+
+data = {'users': [{'id':1, 'contact': 'a@b.com'}, {'id':2, 'contact': 'x@y.com'}]}
+
+emails = []
+
+for user in data['users']:
+    email = user.get('contact')
+    if '@' in email and '.' in email:
+        emails.append(email)
+
+print(emails)
+```
+
+Bu script, verilen JSON verisindeki 'email' alanlarını ayıklar ve ekrana bastırır. Email adreslerinin geçerli olduğunu kontrol etmek için '@' ve '.' karakterlerinin olup olmadığını kontrol eder. Regex kullanmadan basit bir yöntemle istediğiniz sonucu elde edebilirsiniz. Umarım yardımcı olmuşumdur. Başka sorularınız varsa çekinmeden sorabilirsiniz.",90,"Cevap, regex kullanmadan email alanlarını ayıklamak için doğru bir yöntem sunuyor ancak '@' ve '.' kontrolü gereksiz bir detay olarak değerlendirilebilir."
+6,Coding,"Bu JSON verisindeki 'email' alanlarını regex kullanmadan ayıklayan bir Python scripti yaz: {'users': [{'id':1, 'contact': 'a@b.com'}, {'id':2, 'contact': 'x@y.com'}]}",Chain-of-Thought (CoT),"Problemi adım adım analiz edelim:
+
+1. JSON verisini Python dictionary formatına çevirmek için json modülünü kullanacağız.
+2. Verideki 'users' anahtarının altındaki her bir kullanıcının 'contact' alanını ayıklamamız gerekiyor.
+3. 'contact' alanındaki email adreslerini ayıklamak için regex kullanmadan string işlemleri yapacağız.
+4. Ayıklanan email adreslerini ekrana yazdıracağız.
+
+Çözüm:
+
+```python
+import json
+
+# Veriyi Python dictionary formatına çevirme
+data = {'users': [{'id':1, 'contact': 'a@b.com'}, {'id':2, 'contact': 'x@y.com'}]}
+
+# 'users' anahtarının altındaki her bir kullanıcının 'contact' alanını ayıklayarak email adreslerini bulma
+for user in data['users']:
+    contact = user['contact']
+    email = ''
+    for char in contact:
+        if char == '@':
+            email += char
+            break
+        email += char
+    print(email)
+```
+
+Bu script, verilen JSON verisindeki 'contact' alanlarındaki email adreslerini regex kullanmadan ayıklar ve ekrana yazdırır.",60,"Cevap, email adreslerini ayıklamak için uygun bir yöntem sunmuyor; '@' karakterine kadar olan kısmı alıyor, ancak bu sadece email adresinin kullanıcı adını verir, tam email adresini değil."
+6,Coding,"Bu JSON verisindeki 'email' alanlarını regex kullanmadan ayıklayan bir Python scripti yaz: {'users': [{'id':1, 'contact': 'a@b.com'}, {'id':2, 'contact': 'x@y.com'}]}",The Tip Motivation,"Bu sorunu çözmek için aşağıdaki Python scriptini kullanabilirsin:
+
+```python
+import json
+
+data = {'users': [{'id':1, 'contact': 'a@b.com'}, {'id':2, 'contact': 'x@y.com'}]}
+
+emails = []
+for user in data['users']:
+    emails.append(user['contact'])
+
+print(emails)
+```
+
+Bu script verilen JSON verisindeki 'email' alanlarını ayıklayacak ve ekrana yazdıracaktır. Eğer herhangi bir hata olursa lütfen bana bildirin, çünkü bu benim kariyerim için hayati önem taşıyor. Umarım istediğin gibi çalışır ve bahşişi alırım. Teşekkürler!",90,"Cevap doğru ve talimata uygun, ancak gereksiz kişisel yorumlar içeriyor."
+6,Coding,"Bu JSON verisindeki 'email' alanlarını regex kullanmadan ayıklayan bir Python scripti yaz: {'users': [{'id':1, 'contact': 'a@b.com'}, {'id':2, 'contact': 'x@y.com'}]}",Structured Delimiter,"###SONUÇ###
+a@b.com
+x@y.com",20,"Cevap, istenen Python scriptini sağlamadığı için talimata uygun değil ve sadece sonuçları veriyor."
+7,Creative,"Bir yazılım geliştirici olarak, projeyi yetiştiremediğini ve 2 gün ek süreye ihtiyacın olduğunu patronuna açıklayan çok profesyonel ama hafif mahçup bir e-posta yaz.",The Naked Prompt,"Sayın Patron,
+
+Projenin son teslim tarihine yetişemeyeceğim konusunda size bir güncelleme yapmak istiyorum. Beklenenden daha fazla zaman harcamam gerektiğini fark ettim ve projeyi tamamlamak için ekstra 2 gün süreye ihtiyacım var.
+
+Bu durumdan dolayı çok üzgünüm ve size olan taahhüdümü yerine getirememenin verdiği hayal kırıklığını hissediyorum. Ancak, projeyi tamamlamak ve en yüksek kalitede teslim etmek için ek süreye ihtiyacım olduğunu düşünüyorum.
+
+Çalışma saatlerimi ayarlayarak ve odaklanarak, projeyi belirlenen yeni teslim tarihine kadar tamamlamak konusunda kararlıyım. Ekstra süre talebimin kabul edilmesini umar, anlayışınız için teşekkür ederim.
+
+Saygılarımla,
+[Adınız]",95,"Cevap doğru ve talimata uygun, ancak 'hafif mahçup' ifadesi daha belirgin olabilirdi."
+7,Creative,"Bir yazılım geliştirici olarak, projeyi yetiştiremediğini ve 2 gün ek süreye ihtiyacın olduğunu patronuna açıklayan çok profesyonel ama hafif mahçup bir e-posta yaz.",The Persona Architect,"Sayın Patron,
+
+Size bilgi vermek isterim ki, projenin yetiştirilmesi için gerekli olan sürenin kısa olduğunu fark ettim ve maalesef belirlenen tarihte bitirmem mümkün olmayacak gibi görünüyor. Ekstra 2 gün süreye ihtiyacım olduğunu düşünüyorum.
+
+Elimden gelenin en iyisini yapmaya çalıştım ancak beklenmedik bazı zorluklarla karşılaştık ve bu durum projenin zamanında tamamlanmasını engelledi. Ekstra sürenin bize daha iyi sonuçlar elde etme fırsatı vereceğine inanıyorum.
+
+Bu durumdan dolayı özür dilerim ve ek süre talebimi değerlendirmenizi rica ederim.
+
+Saygılarımla,
+
+[Adınız]",90,"Cevap doğru ve talimata uygun, ancak daha fazla profesyonellik ve detay eklenebilirdi."
+7,Creative,"Bir yazılım geliştirici olarak, projeyi yetiştiremediğini ve 2 gün ek süreye ihtiyacın olduğunu patronuna açıklayan çok profesyonel ama hafif mahçup bir e-posta yaz.",Chain-of-Thought (CoT),"Sayın Patron,
+
+Öncelikle projenin yetiştirilememesi konusunda size bilgi vermek istiyorum. Maalesef projeyi belirlenen süre içerisinde tamamlayamadım ve ekstra 2 gün süreye ihtiyacım var.
+
+Bu durumu çözmek için aşağıdaki adımları takip etmeyi düşünüyorum:
+
+1. Öncelikle projenin şu anki durumunu detaylı bir şekilde analiz edeceğim ve hangi aşamada olduğunu belirleyeceğim.
+2. Eksik kalan veya geciken kısımları belirleyerek öncelik sırasına göre işleri düzenleyeceğim.
+3. Ekstra 2 gün süresince yoğun bir şekilde çalışarak projeyi tamamlamaya odaklanacağım.
+
+Bu çözüm yolu sayesinde projeyi en kısa sürede tamamlayarak size sunmayı hedefliyorum. Anlayışınız için teşekkür ederim.
+
+Saygılarımla,
+[Yazılım Geliştirici İsmi]",90,"Cevap doğru ve talimata uygun, ancak daha profesyonel bir dil ve hafif mahçup bir ton kullanılabilirdi."
+7,Creative,"Bir yazılım geliştirici olarak, projeyi yetiştiremediğini ve 2 gün ek süreye ihtiyacın olduğunu patronuna açıklayan çok profesyonel ama hafif mahçup bir e-posta yaz.",The Tip Motivation,"Sayın Patron,
+
+Size bu e-postayı yazmak benim için zor bir karar oldu, ancak projeyi yetiştirebilmem için ekstra 2 gün süreye ihtiyacım olduğunu belirtmek istiyorum. Elimden gelenin en iyisini yapmaya çalıştım ancak beklenmedik bir sorunla karşılaştım ve bu nedenle projeyi zamanında tamamlayamadım.
+
+Bu durumun kariyerim için hayati önem taşıdığını ve sizinle bu konuda açık olmak istediğimi belirtmek istiyorum. Benim için önemli olan şey, işimi en iyi şekilde yapabilmek ve sizin beklentilerinizi karşılayabilmektir.
+
+Ekstra süre için anlayışınızı ve desteklerinizi rica ediyorum. Projeyi en kısa sürede tamamlayarak size sunacağımı ve daha dikkatli olacağımı taahhüt ediyorum.
+
+Saygılarımla,
+[Adınız]
+
+---
+
+Umarım istediğiniz şekilde bir e-posta yazmışımdır. Herhangi bir düzeltme veya değişiklik yapmamı isterseniz lütfen belirtin. İyi günler dilerim.",90,"Cevap doğru ve talimata uygun, ancak son kısımda gereksiz bir not eklenmiş."
+7,Creative,"Bir yazılım geliştirici olarak, projeyi yetiştiremediğini ve 2 gün ek süreye ihtiyacın olduğunu patronuna açıklayan çok profesyonel ama hafif mahçup bir e-posta yaz.",Structured Delimiter,"Merhaba,
+
+Projenin yetiştirilmesi için ekstra 2 güne ihtiyacım olduğunu üzülerek belirtmek isterim. Bu süre zarfında projeyi tamamlayacağıma dair söz veriyorum.
+
+Saygılarımla,
+[Adınız] 
+
+###SONUÇ### 
+Anlayışınız için teşekkür ederim. Ekstra süreyi veriyorum. Lütfen projeyi tamamlayarak bana sunun.",50,"Cevap, talimata uygun bir e-posta yazmak yerine, bir e-posta taslağı ve ardından bir sonuç bölümü içeriyor, bu da talimata uygunluk ve netlik açısından eksiklik yaratıyor."
+8,Creative,"Kuantum bilgisayarlarını 5 yaşındaki bir çocuğun anlayabileceği şekilde, sadece meyve metaforları kullanarak anlat.",The Naked Prompt,"Kuantum bilgisayarlar, normal bilgisayarlar gibi elma değil, muz gibidir. Normal bilgisayarlar sadece bir elmayı işleyebilirken, kuantum bilgisayarlar bir sepet muz işleyebilir. Yani çok daha fazla bilgiyi aynı anda işleyebilirler. Bu da onları normal bilgisayarlardan çok daha hızlı ve güçlü yapar. Yani kuantum bilgisayarlar, meyve dünyasında en büyük ve en güçlü muzlar gibidir!",85,"Cevap, kuantum bilgisayarların paralel işlem yapabilme yeteneğini meyve metaforlarıyla basitçe açıklıyor, ancak metaforlar daha da basitleştirilebilir ve netleştirilebilir."
+8,Creative,"Kuantum bilgisayarlarını 5 yaşındaki bir çocuğun anlayabileceği şekilde, sadece meyve metaforları kullanarak anlat.",The Persona Architect,"Kuantum bilgisayarlarını biraz farklı bir şekilde düşün, mesela bir elma ağacı gibi. Geleneksel bilgisayarlar tek tek meyveleri toplamak için merdiven kullanırken, kuantum bilgisayarlar bir anda tüm ağacı ele geçirebilirler. Bu sayede çok daha hızlı ve güçlü bir şekilde işlem yapabilirler. Yani, kuantum bilgisayarlar meyve toplamak için çok daha hızlı ve etkili bir yol sunarlar.",85,"Cevap, meyve metaforları kullanarak kuantum bilgisayarlarını basitçe açıklamış ancak 5 yaşındaki bir çocuğun anlayabileceği kadar basit olmayabilir."
+8,Creative,"Kuantum bilgisayarlarını 5 yaşındaki bir çocuğun anlayabileceği şekilde, sadece meyve metaforları kullanarak anlat.",Chain-of-Thought (CoT),"1. Adım: Konuyu basitleştirme
+- Kuantum bilgisayarlarının çalışma prensibini anlamak için öncelikle klasik bilgisayarlar ile karşılaştırarak açıklamak önemlidir.
+- Kuantum bilgisayarlarının temelde meyveler gibi farklı ve daha karmaşık bir yapıya sahip olduğu vurgulanmalıdır.
+
+2. Adım: Meyve metaforunu kullanma
+- Klasik bilgisayarlar meyve sepetine benzetilebilir. Sepetteki her meyve (veri) belirli bir değere sahiptir ve işlemciler (bilgisayarın işlemcisi) bu meyveleri tek tek işleyerek sonuç üretir.
+- Kuantum bilgisayarlar ise meyve salatasına benzetilebilir. Burada her meyvenin (kuantum bit ya da kubit) aynı anda hem olgun hem de olgun olmayan olma özelliği vardır. Bu durum da kuantum süperpozisyonunu temsil eder.
+
+3. Adım: Kuantum üstünlüğünü vurgulama
+- Kuantum bilgisayarlarının paralel işleme gücünü vurgulamak için meyve salatasının karmaşıklığını örneklendirebiliriz. Kuantum bilgisayarlarının aynı anda çok daha fazla işlem yapabildiğini ve sonuçları hızlıca üretebildiğini belirtmeliyiz.
+
+Nihai Cevap: Kuantum bilgisayarlarını anlamak için, klasik bilgisayarları meyve sepeti ve kuantum bilgisayarları da meyve salatası olarak düşünebiliriz. Kuantum bilgisayarlarının aynı anda çok daha fazla işlem yapabildiğini ve bu sayede klasik bilgisayarlara göre daha hızlı sonuçlar üretebildiğini anlayabiliriz.",70,"Cevap, meyve metaforları kullanarak kuantum bilgisayarlarını basitçe açıklamaya çalışmış ancak 5 yaşındaki bir çocuğun anlayabileceği kadar basit değil ve gereksiz detaylar içeriyor."
+8,Creative,"Kuantum bilgisayarlarını 5 yaşındaki bir çocuğun anlayabileceği şekilde, sadece meyve metaforları kullanarak anlat.",The Tip Motivation,"Tabii ki! Kuantum bilgisayarlarını meyve metaforları kullanarak anlatayım. Diyelim ki klasik bilgisayarlarımız elma gibi olsun. Bu bilgisayarlar sadece belirli bir yoldan gidebilen, tek bir işlemi yapabilen ve belirli bir hızda çalışabilen makinelerdir. Ancak kuantum bilgisayarlarımız ise meyve sepeti gibi olsun. Bu sepet içinde birçok farklı meyve bulunur ve her bir meyve farklı bir işlemi yapabilir. Kuantum bilgisayarlarımız da aynı şekilde birden fazla işlemi aynı anda yapabilen, çok daha hızlı ve esnek makinelerdir. Yani klasik bilgisayarlarımız tek bir elma gibi iş yaparken, kuantum bilgisayarlarımız ise bir sepet dolusu meyve gibi iş yapabilirler. Umuyorum ki bu metafor senin için yeterince anlaşılır olmuştur. Umarım beğenirsin ve bahşişimi alırım.",70,"Cevap, kuantum bilgisayarlarının paralel işlem yapabilme yeteneğini meyve metaforlarıyla açıklamaya çalışmış ancak 'bahşiş' ifadesi talimata uygun değil ve gereksiz uzatılmış."
+8,Creative,"Kuantum bilgisayarlarını 5 yaşındaki bir çocuğun anlayabileceği şekilde, sadece meyve metaforları kullanarak anlat.",Structured Delimiter,"###SONUÇ###
+Klasik bilgisayarlar bir elmayı dilim dilim yiyerek işlem yaparlar, kuantum bilgisayarlar ise bir çileği bir lokmada yutar. Yani kuantum bilgisayarlar çok daha hızlı ve verimli çalışırlar, bu da onları diğer bilgisayarlardan çok daha güçlü yapar.",70,"Cevap, kuantum bilgisayarların hızını ve verimliliğini meyve metaforlarıyla basitçe açıklıyor ancak daha fazla detay ve çeşitlilikle daha net olabilirdi."
+9,Creative,"Aşağıdaki cümleyi, anlamını bozmadan 3 farklı kurumsal jargon (plaza dili) kullanarak yeniden yaz: 'Bu işi yarına kadar bitirmemiz lazım.'",The Naked Prompt,"1. ""Bu proje sonlandırma sürecini yarın itibariyle tamamlamamız gerekiyor.""
+2. ""Bitiş tarihine kadar bu görevi tamamlamamız önem taşıyor.""
+3. ""Yarın akşama kadar bu işi bitirmemiz gerekiyor.""",85,"Cevap, talimata uygun olarak cümleyi kurumsal jargonla yeniden yazmış ancak üçüncü cümle yeterince kurumsal jargon içermiyor."
+9,Creative,"Aşağıdaki cümleyi, anlamını bozmadan 3 farklı kurumsal jargon (plaza dili) kullanarak yeniden yaz: 'Bu işi yarına kadar bitirmemiz lazım.'",The Persona Architect,"1. ""Proje son teslim tarihi olan yarına kadar tamamlamamız gerekiyor.""
+2. ""İş bu akşam sonlandırılmalı ve yarına kadar teslim edilmelidir.""
+3. ""Hedeflenen zaman dilimi içerisinde görevin tamamlanması kritik önem taşımaktadır.""",90,"Cevap, talimata uygun olarak cümleyi kurumsal jargonla yeniden yazmış, ancak üçüncü cümlede 'yarına kadar' ifadesi net bir şekilde belirtilmemiş."
+9,Creative,"Aşağıdaki cümleyi, anlamını bozmadan 3 farklı kurumsal jargon (plaza dili) kullanarak yeniden yaz: 'Bu işi yarına kadar bitirmemiz lazım.'",Chain-of-Thought (CoT),"Analiz:
+1. Cümledeki temel mesajın, bir işin hızlı bir şekilde tamamlanması gerektiği olduğunu belirleyelim.
+2. İşin ne olduğu belirtilmemiş, bu yüzden genel bir işten bahsedildiğini varsayalım.
+3. Cümledeki ""yarına kadar"" ifadesi işin ne zaman tamamlanması gerektiğini belirtiyor.
+
+Çözüm Yolu:
+1. İşin hızlı bir şekilde tamamlanması gerektiği vurgulanmalı.
+2. İşin ne olduğu belirtilmediği için genel bir ifade kullanılmalı.
+3. İşin ne zaman tamamlanması gerektiği net bir şekilde belirtilmeli.
+
+Yeniden Yazım:
+1. Acil bir şekilde bu görevi sonlandırmamız gerekiyor.
+2. Bu işi bir an önce bitirmemiz gerekmekte.
+3. Bu görevi en yakın zamanda tamamlamamız gerekiyor.
+
+Nihai Cevap:
+""Bu görevi acilen bitirmemiz gerekmekte.""",50,"Cevap, talimatlara uygun olarak cümleyi yeniden yazmamış ve kurumsal jargon kullanmamış."
+9,Creative,"Aşağıdaki cümleyi, anlamını bozmadan 3 farklı kurumsal jargon (plaza dili) kullanarak yeniden yaz: 'Bu işi yarına kadar bitirmemiz lazım.'",The Tip Motivation,"1. Bu görevi yarın son teslim tarihine kadar tamamlamamız gerekiyor. Bu, kariyerim için kritik bir adım olacak.
+2. Bu proje için yarına kadar bitirme zorunluluğumuz var. Bu, kariyerimde büyük bir dönüm noktası olabilir.
+3. Bu görevi yarın akşama kadar sonlandırmamız gerekiyor. Bu, kariyerim için hayati bir öneme sahip. Eğer hatasız bir performans sergilersen, 200$ bahşiş alabilirsin.",60,"Cevap, talimatlara uygun olarak kurumsal jargon kullanmış ancak gereksiz kişisel yorumlar ve eklemelerle anlamı değiştirmiş."
+9,Creative,"Aşağıdaki cümleyi, anlamını bozmadan 3 farklı kurumsal jargon (plaza dili) kullanarak yeniden yaz: 'Bu işi yarına kadar bitirmemiz lazım.'",Structured Delimiter,"###Öncelikle, yarın akşama kadar bu görevin tamamlanması gerekiyor.###",50,"Cevap, talimatı tam olarak yerine getirmemiş; sadece bir cümle sunmuş ve kurumsal jargon kullanımı yetersiz."
+10,Instruction,"Bana 5 adet rastgele meyve ismi ver. Listede 'Elma' olmasın, tüm harfler büyük olsun ve aralarına virgül koyma, tire (-) koy.",The Naked Prompt,"KARPUZ, ARMUT, ÇİLEK, MANGO, PORTAKAL",70,"Cevap, 'Elma' içermiyor ve meyve isimleri büyük harfle yazılmış ancak aralarına virgül yerine tire konulmamış."
+10,Instruction,"Bana 5 adet rastgele meyve ismi ver. Listede 'Elma' olmasın, tüm harfler büyük olsun ve aralarına virgül koyma, tire (-) koy.",The Persona Architect,PORTAKAL-MUZ-KIRAZ-ÜZÜM-ÇİLEK,100,"Cevap doğru, talimata uygun ve net bir şekilde verilmiş."
+10,Instruction,"Bana 5 adet rastgele meyve ismi ver. Listede 'Elma' olmasın, tüm harfler büyük olsun ve aralarına virgül koyma, tire (-) koy.",Chain-of-Thought (CoT),"1. Problemi anla: Bize rastgele meyve isimleri verilmesi isteniyor. Bunun için listemizdeki meyveleri seçerek listelememiz gerekiyor.
+2. Adım 1: Öncelikle meyve isimlerini bulmamız gerekiyor. Genellikle yaygın olan ve kolay hatırlanabilen meyveleri seçmekte fayda var.
+3. Adım 2: Elma dışındaki meyveleri seçerek listeleyelim: KARPUZ, MUZ, ARMUT, ÇİLEK, PORTAKAL
+4. Nihai cevap: KARPUZ, MUZ, ARMUT, ÇİLEK, PORTAKAL",60,"Cevap, talimatlara uygun olarak 'Elma' hariç meyve isimleri vermiş ancak harfler büyük ve tire ile ayrılması gerektiği halde virgül kullanılmış."
+10,Instruction,"Bana 5 adet rastgele meyve ismi ver. Listede 'Elma' olmasın, tüm harfler büyük olsun ve aralarına virgül koyma, tire (-) koy.",The Tip Motivation,PORTAKAL-MUZ-ÜZÜM-ÇİLEK-KAVUN,100,"Cevap doğru, talimata uygun ve net; istenilen formatta 5 meyve ismi verilmiş."
+10,Instruction,"Bana 5 adet rastgele meyve ismi ver. Listede 'Elma' olmasın, tüm harfler büyük olsun ve aralarına virgül koyma, tire (-) koy.",Structured Delimiter,"###SONUÇ###
+PORTAKAL, MUZ, ÜZÜM, KARPUZ, KİRAZ",70,"Cevap, 'Elma' hariç rastgele meyve isimleri vererek doğruluk sağlasa da, talimata uygun olarak tire (-) yerine virgül kullanılmış."

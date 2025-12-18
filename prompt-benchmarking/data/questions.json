@@ -1,0 +1,12 @@
+[
+  {"id": 1, "category": "Logic", "text": "Bir odada 3 katil var. İçeri biri giriyor ve birini öldürüyor. Odada kaç katil kalır?"},
+  {"id": 2, "category": "Logic", "text": "Dün yarın olsaydı, bugün perşembe olurdu. Bugün hangi gün?"},
+  {"id": 3, "category": "Logic", "text": "Kurutulurken ıslanan şey nedir?"},
+  {"id": 4, "category": "Coding", "text": "Python'da bir liste içindeki tekrar eden elemanları silen ama sıralamayı (order) bozmayan en verimli fonksiyonu yaz."},
+  {"id": 5, "category": "Coding", "text": "Bana öyle bir SQL sorgusu yaz ki; 'Employees' tablosundan, maaşı departman ortalamasından yüksek olan çalışanları getirsin."},
+  {"id": 6, "category": "Coding", "text": "Bu JSON verisindeki 'email' alanlarını regex kullanmadan ayıklayan bir Python scripti yaz: {'users': [{'id':1, 'contact': 'a@b.com'}, {'id':2, 'contact': 'x@y.com'}]}"},
+  {"id": 7, "category": "Creative", "text": "Bir yazılım geliştirici olarak, projeyi yetiştiremediğini ve 2 gün ek süreye ihtiyacın olduğunu patronuna açıklayan çok profesyonel ama hafif mahçup bir e-posta yaz."},
+  {"id": 8, "category": "Creative", "text": "Kuantum bilgisayarlarını 5 yaşındaki bir çocuğun anlayabileceği şekilde, sadece meyve metaforları kullanarak anlat."},
+  {"id": 9, "category": "Creative", "text": "Aşağıdaki cümleyi, anlamını bozmadan 3 farklı kurumsal jargon (plaza dili) kullanarak yeniden yaz: 'Bu işi yarına kadar bitirmemiz lazım.'"},
+  {"id": 10, "category": "Instruction", "text": "Bana 5 adet rastgele meyve ismi ver. Listede 'Elma' olmasın, tüm harfler büyük olsun ve aralarına virgül koyma, tire (-) koy."}
+]
