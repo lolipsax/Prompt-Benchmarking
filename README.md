@@ -1,2 +1,2 @@
 # Prompt-Benchmarking
-My research about Promts
+My research about Promt Techniques
